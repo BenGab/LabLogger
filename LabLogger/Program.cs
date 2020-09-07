@@ -20,6 +20,16 @@ namespace LabLogger
             });
 
             logger.Log("Sample log message");
+
+            logger.Log("Hello");
+            logger.Log("------------------");
+            logger.Log("Hello other");
+            logger.Log("hajhfdhflak");
+
+            foreach(var entry in logger.Filter(x=> x.Contains("Hello")))
+            {
+                Console.WriteLine($"[FROM FILTER] - {entry}");
+            }
         }
     }
 }
