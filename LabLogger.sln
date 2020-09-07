@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabLogger", "LabLogger\LabLogger.csproj", "{8842CAFE-7C2F-4420-A909-36D267F41E43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.BLL", "Logger.BLL\Logger.BLL.csproj", "{5F5F0087-28A3-4660-A3A8-9694014C0B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8842CAFE-7C2F-4420-A909-36D267F41E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8842CAFE-7C2F-4420-A909-36D267F41E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8842CAFE-7C2F-4420-A909-36D267F41E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5F0087-28A3-4660-A3A8-9694014C0B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5F0087-28A3-4660-A3A8-9694014C0B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5F0087-28A3-4660-A3A8-9694014C0B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5F0087-28A3-4660-A3A8-9694014C0B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
