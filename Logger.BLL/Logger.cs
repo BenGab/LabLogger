@@ -13,7 +13,7 @@ namespace Logger.BLL
 
         public void Log(string message)
         {
-            logMethods?.Invoke($"[{DateTime.UtcNow}] - message");
+            logMethods?.Invoke($"[{DateTime.UtcNow}] - {message}");
         }
     }
 }
